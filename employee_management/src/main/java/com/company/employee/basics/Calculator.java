@@ -21,6 +21,12 @@ public class Calculator {
 		return a / b;
 
 	}
+	
+	
+	public double average(double a,double b,double c){
+		return (a + b + c) / 3.0;
+
+	}
 
 	public static void main(String[] args) {
 
@@ -30,6 +36,7 @@ public class Calculator {
 		System.out.println("Subtraction : " + calculator.subtract(20, 10));
 		System.out.println("Multiplication is : " + calculator.multiply(20, 10));
 		System.out.println("Division is : " + calculator.division(20, 10));
+		System.out.println("Division is : " + calculator.average(30.0, 10.0,50.0));
 
 	}
 }
