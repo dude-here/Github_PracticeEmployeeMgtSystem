@@ -28,6 +28,11 @@ public class StringUtility {
 
 		return text.length();
 	}
+	
+	// 4. Remove Last Character
+    public String removeLastCharacter(String text) {
+        return text.substring(0, text.length() - 1);
+    }
 
 	public static void main(String[] args) {
 
@@ -38,5 +43,7 @@ public class StringUtility {
 		System.out.println("Uppercase : "+utility.toUpper("jaydev"));
 		System.out.println("Uppercase : "+utility.concatenate("jaydev","rathod"));
 		System.out.println("Uppercase : "+utility.removeFirstCharacter("rathod"));
+		System.out.println("Uppercase : "+utility.removeLastCharacter("tanmay"));
+		
 	}
 }
