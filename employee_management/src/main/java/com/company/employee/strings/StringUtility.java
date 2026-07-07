@@ -18,6 +18,12 @@ public class StringUtility {
         return str1.concat(str2);
     }
     
+    
+    //3. Remove First Character and Added via 2nd Commit via String branch
+    public String removeFirstCharacter(String text) {
+        return text.substring(1);
+    }
+    
 	public int countCharacters(String text) {
 
 		return text.length();
@@ -31,5 +37,6 @@ public class StringUtility {
 		System.out.println("Length : " + utility.countCharacters("GitHub"));
 		System.out.println("Uppercase : "+utility.toUpper("jaydev"));
 		System.out.println("Uppercase : "+utility.concatenate("jaydev","rathod"));
+		System.out.println("Uppercase : "+utility.removeFirstCharacter("rathod"));
 	}
 }
