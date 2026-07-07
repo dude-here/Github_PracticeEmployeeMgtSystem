@@ -7,6 +7,17 @@ public class StringUtility {
 		return new StringBuilder(text).reverse().toString();
 	}
 
+	
+	// 1. Convert to Uppercase and ADDED via String branch 
+    public String toUpper(String text) {
+        return text.toUpperCase();
+    }
+	
+    // 2. Concatenate Strings and ADDED via String branch
+    public String concatenate(String str1, String str2) {
+        return str1.concat(str2);
+    }
+    
 	public int countCharacters(String text) {
 
 		return text.length();
@@ -18,5 +29,7 @@ public class StringUtility {
 
 		System.out.println("Reverse : " + utility.reverse("GitHub"));
 		System.out.println("Length : " + utility.countCharacters("GitHub"));
+		System.out.println("Uppercase : "+utility.toUpper("jaydev"));
+		System.out.println("Uppercase : "+utility.concatenate("jaydev","rathod"));
 	}
 }
