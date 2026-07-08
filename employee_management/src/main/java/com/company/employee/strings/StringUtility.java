@@ -24,15 +24,15 @@ public class StringUtility {
         return text.substring(1);
     }
     
-	//second Bug Created at Origin Main
-	public void countCharacters(String text) {
+	//second Bug Resolved in the BugFixBranch
+	public int countCharacters(String text) {
 
 		return text.length();
 	}
 	
 	// 4. Remove Last Character 
-	//Newly Bug created Below at Origin Main
-    public String removeLastCharacter(int text) {
+	//Fixed This Bug in BugFixBranch
+    public String removeLastCharacter(String text) {
         return text.substring(0, text.length() - 1);
     }
 
