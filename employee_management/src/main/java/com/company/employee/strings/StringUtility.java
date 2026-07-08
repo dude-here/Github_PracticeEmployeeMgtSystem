@@ -29,7 +29,8 @@ public class StringUtility {
 		return text.length();
 	}
 	
-	// 4. Remove Last Character
+	// 4. Remove Last Character 
+	//Newly Bug created Below at Origin Main
     public String removeLastCharacter(int text) {
         return text.substring(0, text.length() - 1);
     }
