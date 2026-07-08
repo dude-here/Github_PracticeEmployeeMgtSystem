@@ -42,7 +42,10 @@ public class StringUtility {
         return text.equalsIgnoreCase(new StringBuilder(text).reverse().toString());
     }
 
-
+	//7. Added Count Words Feature via Origin Main direcly on Github only 
+public int countWords(String text) {
+    return text.trim().split("\\s+").length;
+}
 	public static void main(String[] args) {
 
 		StringUtility utility = new StringUtility();
@@ -55,6 +58,8 @@ public class StringUtility {
 		System.out.println("Remove Last Char : "+utility.removeLastCharacter("tanmay"));
 		
 		System.out.println("Palindrome cHeck : "+utility.isPalindrome("MOM"));
+		
+		System.out.println("Count Words : "+utility.countWords("jaydev"));
 		
 	}
 }
