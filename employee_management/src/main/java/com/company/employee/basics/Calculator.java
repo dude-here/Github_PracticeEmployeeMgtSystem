@@ -22,10 +22,11 @@ public class Calculator {
 
 	}
 
+	/* DELETED this method via locally created "deleteDivisionfeature"
 	public int division(int a, int b) {
 		return a / b;
 
-	}
+	}*/
 	
 	/*  deleting this method from Origin main here remotely only
 	public double average(double a,double b,double c){
@@ -40,7 +41,7 @@ public class Calculator {
 		System.out.println("Addition : " + calculator.add(20, 10));
 		System.out.println("Subtraction : " + calculator.subtract(20, 10));
 		System.out.println("Multiplication is : " + calculator.multiply(20, 10));
-		System.out.println("Division is : " + calculator.division(20, 10));
+		//System.out.println("Division is : " + calculator.division(20, 10));
 		//System.out.println("Division is : " + calculator.average(30.0, 10.0,50.0));
 		System.out.println("Division is : " + calculator.modulus(30, 10));//also added in Origin Main
 
