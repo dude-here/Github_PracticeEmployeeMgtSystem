@@ -10,10 +10,11 @@ public class Calculator {
 		return a - b;
 	}
 	
+	/* DELETED This method via deleteDivisionfeature using 3rd commit via this branch only
 	//this method added in Github(Origin) main and committed in  Github/Origin
 	public int modulus(int a, int b) {
 		return a % b;
-	}
+	}*/
 	
 	
 	/* DELETED This method via deleteDivisionfeature using 2nd commkit via this branch only
@@ -45,7 +46,7 @@ public class Calculator {
 		//System.out.println("Multiplication is : " + calculator.multiply(20, 10));
 		//System.out.println("Division is : " + calculator.division(20, 10));
 		//System.out.println("Division is : " + calculator.average(30.0, 10.0,50.0));
-		System.out.println("Division is : " + calculator.modulus(30, 10));//also added in Origin Main
+		//System.out.println("Division is : " + calculator.modulus(30, 10));//also added in Origin Main
 
 	}
 }
