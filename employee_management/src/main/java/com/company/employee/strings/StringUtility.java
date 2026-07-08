@@ -30,7 +30,7 @@ public class StringUtility {
 	}
 	
 	// 4. Remove Last Character
-    public String removeLastCharacter(String text) {
+    public String removeLastCharacter(int text) {
         return text.substring(0, text.length() - 1);
     }
 
