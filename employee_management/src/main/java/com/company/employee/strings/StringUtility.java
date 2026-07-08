@@ -46,6 +46,10 @@ public class StringUtility {
 		return text.matches("\\d+");
 	}
 
+	//7. Added Count Words Feature via Origin Main direcly on Github only 
+public int countWords(String text) {
+    return text.trim().split("\\s+").length;
+}
 	public static void main(String[] args) {
 
 		StringUtility utility = new StringUtility();
@@ -61,6 +65,7 @@ public class StringUtility {
 		System.out.println("Is Numeric : " + utility.isNumeric("jay"));
 		
 		
-
+		System.out.println("Count Words : "+utility.countWords("jaydev"));
+		
 	}
 }
