@@ -35,6 +35,13 @@ public class StringUtility {
     public String removeLastCharacter(String text) {
         return text.substring(0, text.length() - 1);
     }
+    
+    
+    //5. Check Palindrome String and ADDED FEature via Local StringOperationFeature branch 
+    public boolean isPalindrome(String text) {
+        return text.equalsIgnoreCase(new StringBuilder(text).reverse().toString());
+    }
+
 
 	public static void main(String[] args) {
 
@@ -43,9 +50,11 @@ public class StringUtility {
 		System.out.println("Reverse : " + utility.reverse("GitHub"));
 		System.out.println("Length : " + utility.countCharacters("GitHub"));
 		System.out.println("Uppercase : "+utility.toUpper("jaydev"));
-		System.out.println("Uppercase : "+utility.concatenate("jaydev","rathod"));
-		System.out.println("Uppercase : "+utility.removeFirstCharacter("rathod"));
-		System.out.println("Uppercase : "+utility.removeLastCharacter("tanmay"));
+		System.out.println("Concatenate : "+utility.concatenate("jaydev","rathod"));
+		System.out.println("Remove First Char : "+utility.removeFirstCharacter("rathod"));
+		System.out.println("Remove Last Char : "+utility.removeLastCharacter("tanmay"));
+		
+		System.out.println("Palindrome cHeck : "+utility.isPalindrome("MOM"));
 		
 	}
 }
