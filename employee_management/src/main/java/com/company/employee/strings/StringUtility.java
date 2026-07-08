@@ -24,7 +24,8 @@ public class StringUtility {
         return text.substring(1);
     }
     
-	public int countCharacters(String text) {
+	//second Bug Created at Origin Main
+	public void countCharacters(String text) {
 
 		return text.length();
 	}
