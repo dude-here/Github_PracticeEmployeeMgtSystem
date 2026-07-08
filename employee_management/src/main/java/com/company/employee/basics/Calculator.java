@@ -31,11 +31,11 @@ public class Calculator {
 
 	}*/
 	
-	/*  deleting this method from Origin main here remotely only
+	//Adding Avergae method again
 	public double average(double a,double b,double c){
 		return (a + b + c) / 3.0;
 
-	}*/
+	}
 
 	public static void main(String[] args) {
 
@@ -45,7 +45,7 @@ public class Calculator {
 		System.out.println("Subtraction : " + calculator.subtract(20, 10));
 		//System.out.println("Multiplication is : " + calculator.multiply(20, 10));
 		//System.out.println("Division is : " + calculator.division(20, 10));
-		//System.out.println("Division is : " + calculator.average(30.0, 10.0,50.0));
+		System.out.println("Division is : " + calculator.average(30.0, 10.0,50.0));
 		//System.out.println("Division is : " + calculator.modulus(30, 10));//also added in Origin Main
 
 	}
