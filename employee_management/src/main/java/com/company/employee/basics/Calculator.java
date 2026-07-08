@@ -15,12 +15,14 @@ public class Calculator {
 		return a % b;
 	}
 	
+	
+	/* DELETED This method via deleteDivisionfeature using 2nd commkit via this branch only
 	// created via multiplication branch
 	public int multiply(int a, int b) {
 
 		return a * b;
 
-	}
+	}*/
 
 	/* DELETED this method via locally created "deleteDivisionfeature"
 	public int division(int a, int b) {
@@ -40,7 +42,7 @@ public class Calculator {
 
 		System.out.println("Addition : " + calculator.add(20, 10));
 		System.out.println("Subtraction : " + calculator.subtract(20, 10));
-		System.out.println("Multiplication is : " + calculator.multiply(20, 10));
+		//System.out.println("Multiplication is : " + calculator.multiply(20, 10));
 		//System.out.println("Division is : " + calculator.division(20, 10));
 		//System.out.println("Division is : " + calculator.average(30.0, 10.0,50.0));
 		System.out.println("Division is : " + calculator.modulus(30, 10));//also added in Origin Main
